@@ -25,12 +25,12 @@ const vendorSchema = new mongoose.Schema(
     phone: {
       type: String,
       match: /^[0-9]{10}$/,
-    },
-    company_name: {
-      type: String,
-      trim: true,
-      required: true,
-    }
+    }//,
+    // company_name: {
+    //   type: String,
+    //   trim: true,
+    //   required: true,
+    // }
     // resetPasswordLink: {
     //   data: String,
     //   default: '',
